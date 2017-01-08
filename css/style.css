@@ -1,0 +1,157 @@
+/* CSS Document */
+.jumbotron {
+    height: calc(100vh - 50px);
+        background: url(https://images.pexels.com/photos/242616/pexels-photo-242616.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+        background-size:cover;
+        margin-bottom: 0;
+}
+.text {
+   margin-top: 30vh;
+   
+}
+.text h1 {
+    font-weight:bold;
+    color: white;
+}
+
+.nav li{
+   font-size: 24px;
+    coursor: pointer;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.fa-angle-down {
+   
+    display: block;
+    coursor: pointer;
+    width: 30px;
+    height: 50px;
+    transition: 300ms ease-in-out;
+    font-size: 70px;
+    margin: 20px auto;
+    color: white;
+}
+
+.two {
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+}
+i .fa-angle-down {
+    color: white;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+}
+.o_mnie {
+    background: #f4f7f9;
+}
+.o_mnie h3,
+p {
+    color: black;
+}
+.padd-top {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.skills {
+    
+    background: #d5e1ea;
+}
+.skills i {
+    font-size: 150px;
+    margin-bottom: 50px;
+    transition: transform 2s;
+}
+.skills i:hover {
+    cursor: pointer;
+    color: #337ab7;
+    transform: scale(0.8);
+    
+}
+.skills h2 {
+    color: white;
+    margin-bottom: 30px;
+}
+.col-xs-6 {
+    margin-bottom: 30px;
+}
+.col-xs-6 a,
+.col-xs-12 .word a
+ {
+    display: block;
+    width: 130px;
+    height: 46px;
+    margin: 0 auto;
+}
+.my_work {
+    background: #7b8e9c;
+}
+.my_work .row {
+    margin-bottom: 30px;
+}
+.my_work img {
+    border: 8px solid  blue;
+}
+.my_work h2,
+h3,
+p {
+    color: white;
+}
+.my_work h2 {
+    margin-bottom: 30px;
+}
+.my_work p {
+    font-size: 20px;
+}
+.btn:hover {
+    background-color: blue;
+    color: gold;
+}
+.contact {
+    text-align: center;
+    background-color: #698293;
+}
+.contact h2 {
+    color: white;
+}
+.contact .row {
+    margin-top: 40px;
+}
+.contact i {
+    color: white;
+    transition: transform 2s;
+}
+.contact i:hover {
+    color: blue;  
+    transform: scale(1.4);
+}
+.footer {
+	padding: 10px;
+	background-color: #2c3e50;
+	color: #ffffff;
+  	margin: auto;
+}
+.footer h2 {
+	font-size: 15px;
+  	margin: auto;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+}
+@media(max-width: 400px) {
+    .skills i {
+    font-size: 100px;
+    margin-bottom: 50px;
+    }
+    .contact h3 {
+        font-size: 16px;
+    }
+}
